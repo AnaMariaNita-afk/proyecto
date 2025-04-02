@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Alquiler de Vehículos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="empresa.html">Sobre Nosotros</a></li>
+                <li><a href="vehiculos.html">Vehículos</a></li>
+                <li><a href="rss.html">RSS</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contacto">
+            <h1>Contáctanos</h1>
+            <div class="formulario">
+                <form id="formularioContacto" onsubmit="enviarFormulario(event)">
+                    <div class="grupo-formulario">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    
+                    <div class="grupo-formulario">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="grupo-formulario">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    
+                    <div class="grupo-formulario">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                    </div>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            
+            <div class="informacion-contacto">
+                <h2>Información de Contacto</h2>
+                <p><strong>Teléfono:</strong> 912345678</p>
+                <p><strong>Email:</strong> info@alquileres.com</p>
+                <p><strong>Dirección:</strong> Calle Principal, 123</p>
+                <p><strong>Ciudad:</strong> 28001 Madrid</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="contacto">
+            <h3>Contacto</h3>
+            <p>Teléfono: 912345678</p>
+            <p>Email: info@alquileres.com</p>
+        </section>
+        <section class="ubicacion">
+            <h3>Ubicación</h3>
+            <p>Calle Principal, 123</p>
+            <p>28001 Madrid</p>
+        </section>
+    </footer>
+</body>
+</html>

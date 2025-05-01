@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Alquiler de Vehículos - Novedades</title>
+    <link>http://www.alquileres.com</link>
+    <description>Últimas noticias de nuestra empresa de alquiler de coches</description>
+    <language>es-es</language>
+
+    <item>
+      <title>Nueva Flota de Vehículos Eléctricos</title>
+      <link>http://www.alquileres.com/novedades/flota-electrica</link>
+      <description>Ampliamos nuestra oferta con los últimos modelos de vehículos eléctricos.</description>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Promoción de Primavera</title>
+      <link>http://www.alquileres.com/novedades/primavera</link>
+      <description>Ofertas especiales para la temporada de primavera. ¡Reserva ya!</description>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Nueva Sede en el Centro de la Ciudad</title>
+      <link>http://www.alquileres.com/novedades/nueva-sede</link>
+      <description>Inauguramos una nueva sede más cerca de ti.</description>
+      <pubDate>Tue, 15 Mar 2025 00:00:00 +0100</pubDate>
+    </item>
+
+  </channel>
+</rss>

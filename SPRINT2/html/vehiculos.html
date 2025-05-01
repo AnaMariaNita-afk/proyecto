@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alquiler de Vehículos</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>Vehículos - Alquiler de Vehículos</title>
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
     <header>
-        <h1>Alquiler de Vehículos</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -25,15 +24,14 @@
             <select id="filtroTipo">
                 <option value="todos">Todos los vehículos</option>
                 <option value="turismo">Turismo</option>
-                <option value="motocicleta">Motocicleta</option>
+                <option value="motocicleta">Moticicleta</option>
                 <option value="furgoneta">Furgoneta</option>
             </select>
         </section>
-    
+
         <div class="grid-vehiculos">
-        
             <div class="tarjeta-vehiculo">
-                <img src="imagenes/foto1.jpg" alt="Toyota Corolla">
+                <img src="../imagenes/foto1.jpg" alt="Toyota Corolla">
                 <div class="informacion-vehiculo">
                     <h3>Toyota Corolla</h3>
                     <p>Tipo: Turismo</p>
@@ -45,7 +43,7 @@
             </div>
 
             <div class="tarjeta-vehiculo">
-                <img src="imagenes/foto2.jpg" alt="Toyota Corolla">
+                <img src="../imagenes/foto2.jpg" alt="Toyota Corolla">
                 <div class="informacion-vehiculo">
                     <h3>Toyota Corolla</h3>
                     <p>Tipo: Turismo</p>
@@ -57,7 +55,7 @@
             </div>
 
             <div class="tarjeta-vehiculo">
-                <img src="imagenes/foto3.jpg" alt="Yamaha MT-07">
+                <img src="../imagenes/foto3.jpg" alt="Yamaha MT-07">
                 <div class="informacion-vehiculo">
                     <h3>Toyota Corolla</h3>
                     <p>Tipo: Turismo</p>
@@ -69,7 +67,7 @@
             </div>
 
             <div class="tarjeta-vehiculo">
-                <img src="imagenes/foto4.jpg" alt="Volkswagen Transporter">
+                <img src="../imagenes/foto4.jpg" alt="Volkswagen Transporter">
                 <div class="informacion-vehiculo">
                     <h3>Toyota Corolla</h3>
                     <p>Tipo: Turismo</p>
@@ -82,14 +80,13 @@
         
         
         </div>
+
 
         <div class="paginacion">
             <button onclick="cambiarPagina('anterior')">Anterior</button>
             <span id="paginaActual">1</span>
             <button onclick="cambiarPagina('siguiente')">Siguiente</button>
         </div>
-    
-        
     </main>
 
     <footer>

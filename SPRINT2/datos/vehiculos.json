@@ -1,0 +1,30 @@
+[
+    {
+      "nombre": "Toyota Corolla",
+      "tipo": "Turismo",
+      "kilometros": 45000,
+      "matricula": "1234ABC",
+      "precio": "40€/día",
+      "estado": "Disponible",
+      "imagen": "../imagenes/foto1.jpg"
+    },
+    {
+      "nombre": "Yamaha MT-07",
+      "tipo": "Motocicleta",
+      "kilometros": 15000,
+      "matricula": "5678XYZ",
+      "precio": "30€/día",
+      "estado": "Disponible",
+      "imagen": "../imagenes/foto3.jpg"
+    },
+    {
+      "nombre": "Volkswagen Transporter",
+      "tipo": "Furgoneta",
+      "kilometros": 60000,
+      "matricula": "4321DFG",
+      "precio": "55€/día",
+      "estado": "Mantenimiento",
+      "imagen": "../imagenes/foto4.jpg"
+    }
+  ]
+  

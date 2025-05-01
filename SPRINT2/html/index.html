@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquiler de Vehículos</title>
+    <link rel="alternate" type="application/rss+xml" title="RSS - Alquiler de Vehículos" href="../rss.xml">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Alquiler de Vehículos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="empresa.html">Sobre Nosotros</a></li>
+                <li><a href="vehiculos.html">Vehículos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bienvenida">
+            <h2>Bienvenido a Tu Coche</h2>
+            <p>Tu solución rápida y segura para alquilar vehículos. Elige entre una amplia gama de turismos, motocicletas y furgonetas.</p>
+            <a href="vehiculos.html" class="boton">Ver Vehículos Disponibles</a>
+        </section>
+    
+        <section class="destacados">
+            <h3>¿Por qué elegirnos?</h3>
+            <ul>
+                <li>✅ Precios competitivos</li>
+                <li>✅ Vehículos revisados y mantenidos</li>
+                <li>✅ Atención personalizada</li>
+                <li>✅ Reserva fácil y rápida</li>
+            </ul>
+        </section>
+    
+        <section class="noticias-recientes">
+            <h3>Últimas novedades</h3>
+            <p>Consulta nuestras <a href="rss.xml.txt">últimas noticias</a> sobre promociones, nuevas sedes y más.</p>
+        </section>
+        <section class="filtros">
+            <select id="filtroTipo">
+                <option value="todos">Todos los vehículos</option>
+                <option value="turismo">Turismo</option>
+                <option value="motocicleta">Motocicleta</option>
+                <option value="furgoneta">Furgoneta</option>
+            </select>
+        </section>
+    
+        <div class="grid-vehiculos"  id="vehiculos-container"></div>
+        
+           
+
+            
+
+        <div class="paginacion">
+            <button onclick="cambiarPagina('anterior')">Anterior</button>
+            <span id="paginaActual">1</span>
+            <button onclick="cambiarPagina('siguiente')">Siguiente</button>
+        </div>
+    
+        
+    </main>
+
+    <footer>
+        <section class="contacto">
+            <h3>Contacto</h3>
+            <p>Teléfono: 912345678</p>
+            <p>Email: info@alquileres.com</p>
+        </section>
+        <section class="ubicacion">
+            <h3>Ubicación</h3>
+            <p>Calle Principal, 123</p>
+            <p>28001 Madrid</p>
+        </section>
+    </footer>
+
+    <script src="../js/generarVehiculos.js"></script>
+</body>
+</html>
